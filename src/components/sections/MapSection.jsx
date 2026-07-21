@@ -18,7 +18,7 @@ function MapSection() {
               Lokasi Kami
             </span>
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-              Kunjungi Kantor Kami
+              Kantor Pusat Kami
             </h3>
 
             <div className="flex items-start gap-3 mb-4">
