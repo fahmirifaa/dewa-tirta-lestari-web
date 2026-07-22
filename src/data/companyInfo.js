@@ -14,4 +14,4 @@ export const companyInfo = {
     youtube: "https://youtube.com/@dewatirtalestari",
     tiktok: "https://tiktok.com/@dewatirtalestari",
   },
-};
+}; 
