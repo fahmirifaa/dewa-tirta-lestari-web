@@ -1,13 +1,13 @@
 export const companyInfo = {
   name: "DEWA TIRTA LESTARI",
   tagline: "Supplier Air Bersih Terpercaya untuk Segala Kebutuhan",
-  address: "Sarongge, Jl. Raya Serang - Pandeglang Kp No.Km 9, Kemanisan, Kec. Curug, Kota Serang, Banten 42171",
+  address: "Jl. Raya Pasar Kemis No. 45, Pasarkemis, Tangerang, Banten 15560",
   phone: "083842931575",
   whatsapp: "6283842931575",
   email: "info@dewatirtalestari.co.id",
-  operationalHours: "Setiap Hari, 24 Jam",
+  operationalHours: "Senin - Sabtu, 07.00 - 20.00 WIB",
   mapEmbedUrl:
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d471.27676593209577!2d106.137023!3d-6.2013136!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e42212d88f8e291%3A0x17b0955cc7f27a51!2sPengisian%20Tanki%20Air%20Bersih%20(Pump)!5e1!3m2!1sid!2sid!4v1784649766320!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>,
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6976539771!2d106.5308!3d-6.1731",
   socialMedia: {
     facebook: "https://facebook.com/dewatirtalestari",
     instagram: "https://instagram.com/dewatirtalestari",
