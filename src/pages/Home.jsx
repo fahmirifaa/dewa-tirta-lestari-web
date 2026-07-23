@@ -10,7 +10,6 @@ import TestimonialsSection from "../components/sections/TestimonialsSection";
 import ArticlesSection from "../components/sections/ArticlesSection";
 import FaqSection from "../components/sections/FaqSection";
 import MapSection from "../components/sections/MapSection";
-import WaterDivider from "../components/common/WaterDivider";
 
 function Home() {
   return (
@@ -19,12 +18,10 @@ function Home() {
       <AboutSection />
       <WhyChooseUsSection />
       <ServicesSection />
-      <WaterDivider />
       <FilteringProcessSection />
       <StatsSection />
       <ServiceAreaSection />
       <GallerySection />
-      <WaterDivider flip />
       <TestimonialsSection />
       <ArticlesSection />
       <FaqSection />
