@@ -9,7 +9,7 @@ function FaqSection() {
         <SectionHeading
           badge="FAQ"
           title="Pertanyaan yang Sering Diajukan"
-          subtitle="Temukan jawaban atas pertanyaan umum seputar layanan DEWA TIRTA LESTARI."
+          subtitle="Temukan jawaban atas pertanyaan umum seputar layanan TIRTA KENCANA ABADI."
         />
 
         <div className="flex flex-col gap-4">

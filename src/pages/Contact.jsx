@@ -20,7 +20,7 @@ function Contact() {
     {
       icon: FaPhoneAlt,
       label: "Telepon",
-      value: companyInfo.phone,
+      value: `${companyInfo.phone} / ${companyInfo.phoneSecondary}`,
     },
     {
       icon: FaEnvelope,

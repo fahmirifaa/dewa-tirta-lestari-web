@@ -19,7 +19,7 @@ function LoadingScreen({ isLoading }) {
             <FaTint className="text-white text-3xl" />
           </motion.div>
           <p className="font-heading font-semibold text-gray-700 dark:text-gray-200 tracking-wide">
-            DEWA TIRTA LESTARI
+            TIRTA KENCANA ABADI
           </p>
           <div className="mt-4 w-40 h-1 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
             <motion.div

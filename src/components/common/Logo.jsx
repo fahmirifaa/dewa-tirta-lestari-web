@@ -15,10 +15,10 @@ function Logo({ isScrolled }) {
               : "text-gray-900 dark:text-white"
           }`}
         >
-          DEWA TIRTA
+          TIRTA KENCANA
         </span>
         <span className="text-xs font-medium text-primary tracking-widest">
-          LESTARI
+          ABADI
         </span>
       </div>
     </Link>

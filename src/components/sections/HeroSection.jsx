@@ -5,7 +5,6 @@ import { stats } from "../../data/stats";
 import { useCountUp } from "../../hooks/useCountUp";
 import { companyInfo } from "../../data/companyInfo";
 import armadaTangki1 from "../../assets/images/armada/armada-tangki-1.jpeg";
-import AuroraBackground from "../common/AuroraBackground";
 
 function StatItem({ stat }) {
     const [ref, count] = useCountUp(stat.value, 2000);
@@ -30,7 +29,10 @@ function HeroSection() {
 
     return (
         <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-gray-900 via-secondary-dark to-gray-900 pt-24 pb-16">
-            <AuroraBackground className="opacity-30" />
+            <div className="absolute inset-0 opacity-10">
+                <div className="absolute top-0 left-0 w-96 h-96 bg-primary rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+                <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
+            </div>
 
             <div className="container-custom relative z-10">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -52,7 +54,7 @@ function HeroSection() {
                         </h1>
 
                         <p className="text-gray-300 text-base md:text-lg mb-8 max-w-xl leading-relaxed">
-                            DEWA TIRTA LESTARI melayani distribusi air bersih untuk rumah
+                            TIRTA KENCANA ABADI melayani distribusi air bersih untuk rumah
                             tangga, industri, hotel, sekolah, hingga rumah ibadah dengan
                             teknologi penyaringan modern dan armada pengiriman yang siap
                             menjangkau wilayah Anda kapan saja.
@@ -96,7 +98,7 @@ function HeroSection() {
                         <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                             <img
                                 src={armadaTangki1}
-                                alt="Armada tangki air bersih DEWA TIRTA LESTARI"
+                                alt="Armada tangki air bersih TIRTA KENCANA ABADI"
                                 className="w-full h-[400px] md:h-[480px] object-cover"
                                 loading="lazy"
                             />

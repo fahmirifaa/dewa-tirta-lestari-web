@@ -32,7 +32,7 @@ function GallerySection() {
         <SectionHeading
           badge="Galeri"
           title="Dokumentasi Kegiatan Kami"
-          subtitle="Lihat lebih dekat aktivitas operasional, armada, dan fasilitas penyaringan air DEWA TIRTA LESTARI."
+          subtitle="Lihat lebih dekat aktivitas operasional, armada, dan fasilitas penyaringan air TIRTA KENCANA ABADI."
         />
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">

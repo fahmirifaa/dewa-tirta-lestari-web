@@ -7,7 +7,7 @@ function CTABanner({
   subtitle = "Konsultasikan kebutuhan air bersih Anda dengan tim kami sekarang juga.",
 }) {
   const message = encodeURIComponent(
-    "Halo DEWA TIRTA LESTARI, saya ingin berkonsultasi mengenai kebutuhan air bersih saya."
+    "Halo TIRTA KENCANA ABADI, saya ingin berkonsultasi mengenai kebutuhan air bersih saya."
   );
 
   return (

@@ -26,7 +26,7 @@ function AboutSection() {
                         <div className="grid grid-cols-2 gap-4">
                             <img
                                 src={armadaTangki2}
-                                alt="Fasilitas penyaringan air DEWA TIRTA LESTARI"
+                                alt="Fasilitas penyaringan air TIRTA KENCANA ABADI"
                                 className="rounded-2xl w-full h-64 object-cover mt-8"
                                 loading="lazy"
                             />
@@ -59,7 +59,7 @@ function AboutSection() {
                             Baik
                         </h2>
                         <p className="text-gray-500 dark:text-gray-400 leading-relaxed mb-6">
-                            DEWA TIRTA LESTARI adalah perusahaan supplier air bersih yang
+                            TIRTA KENCANA ABADI adalah perusahaan supplier air bersih yang
                             berdiri sejak tahun 2012 di Tangerang, Banten. Kami hadir untuk
                             menjawab kebutuhan akan air bersih berkualitas bagi rumah
                             tangga, industri, hotel, restoran, sekolah, hingga rumah

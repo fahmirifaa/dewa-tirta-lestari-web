@@ -6,7 +6,7 @@ export const testimonialsData = [
     avatar: "https://i.pravatar.cc/150?img=12",
     rating: 5,
     message:
-      "Sudah 2 tahun berlangganan air dari DEWA TIRTA LESTARI untuk kebutuhan dapur rumah makan saya. Kualitas air selalu bersih dan pengiriman selalu tepat waktu.",
+      "Sudah 2 tahun berlangganan air dari TIRTA KENCANA ABADI untuk kebutuhan dapur rumah makan saya. Kualitas air selalu bersih dan pengiriman selalu tepat waktu.",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ export const testimonialsData = [
     avatar: "https://i.pravatar.cc/150?img=33",
     rating: 4,
     message:
-      "Untuk kebutuhan air industri pabrik kami, DEWA TIRTA LESTARI selalu bisa diandalkan. Harga juga transparan sesuai kesepakatan awal.",
+      "Untuk kebutuhan air industri pabrik kami, TIRTA KENCANA ABADI selalu bisa diandalkan. Harga juga transparan sesuai kesepakatan awal.",
   },
   {
     id: 4,
@@ -42,6 +42,6 @@ export const testimonialsData = [
     avatar: "https://i.pravatar.cc/150?img=51",
     rating: 5,
     message:
-      "Alhamdulillah kebutuhan air wudhu jamaah masjid kami selalu tercukupi berkat kerjasama dengan DEWA TIRTA LESTARI. Semoga terus amanah.",
+      "Alhamdulillah kebutuhan air wudhu jamaah masjid kami selalu tercukupi berkat kerjasama dengan TIRTA KENCANA ABADI. Semoga terus amanah.",
   },
 ];

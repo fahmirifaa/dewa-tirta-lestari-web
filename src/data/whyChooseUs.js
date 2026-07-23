@@ -32,7 +32,7 @@ export const whyChooseUsData = [
     icon: "FaCertificate",
     title: "Legalitas & Perizinan Lengkap",
     description:
-      "DEWA TIRTA LESTARI beroperasi dengan izin usaha resmi dan mematuhi seluruh regulasi terkait distribusi air bersih.",
+      "TIRTA KENCANA ABADI beroperasi dengan izin usaha resmi dan mematuhi seluruh regulasi terkait distribusi air bersih.",
   },
   {
     id: 6,

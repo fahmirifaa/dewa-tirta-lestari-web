@@ -35,10 +35,10 @@ function Footer() {
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="font-heading font-bold text-lg text-white">
-                  DEWA TIRTA
+                  TIRTA KENCANA
                 </span>
                 <span className="text-xs font-medium text-primary tracking-widest">
-                  LESTARI
+                  ABADI
                 </span>
               </div>
             </div>
@@ -138,7 +138,7 @@ function Footer() {
               <li className="flex items-center gap-3">
                 <FaPhoneAlt className="text-primary shrink-0" />
                 <span className="text-sm text-gray-400">
-                  {companyInfo.phone}
+                  {companyInfo.phone} / {companyInfo.phoneSecondary}
                 </span>
               </li>
               <li className="flex items-center gap-3">

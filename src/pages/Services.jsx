@@ -9,7 +9,7 @@ import { companyInfo } from "../data/companyInfo";
 function ServiceDetailCard({ service, index }) {
   const IconComponent = getIcon(service.icon);
   const message = encodeURIComponent(
-    `Halo DEWA TIRTA LESTARI, saya ingin bertanya tentang layanan ${service.title}.`
+    `Halo TIRTA KENCANA ABADI, saya ingin bertanya tentang layanan ${service.title}.`
   );
 
   return (
@@ -59,7 +59,7 @@ function Services() {
               Solusi Lengkap Kebutuhan Air Bersih Anda
             </h2>
             <p className="section-subtitle">
-              DEWA TIRTA LESTARI menyediakan 10 kategori layanan yang dapat
+              TIRTA KENCANA ABADI menyediakan 10 kategori layanan yang dapat
               disesuaikan dengan kebutuhan spesifik rumah tangga, industri,
               maupun institusi Anda.
             </p>

@@ -16,7 +16,7 @@ function TestimonialsSection() {
         <SectionHeading
           badge="Testimoni"
           title="Apa Kata Pelanggan Kami"
-          subtitle="Kepuasan pelanggan adalah prioritas utama kami. Berikut pengalaman mereka menggunakan layanan DEWA TIRTA LESTARI."
+          subtitle="Kepuasan pelanggan adalah prioritas utama kami. Berikut pengalaman mereka menggunakan layanan TIRTA KENCANA ABADI."
         />
 
         <Swiper

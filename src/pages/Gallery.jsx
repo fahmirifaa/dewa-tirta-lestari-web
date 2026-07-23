@@ -47,7 +47,7 @@ function Gallery() {
             <h2 className="section-title">Dokumentasi Kegiatan Kami</h2>
             <p className="section-subtitle">
               Lihat lebih dekat aktivitas operasional, armada, dan fasilitas
-              penyaringan air DEWA TIRTA LESTARI.
+              penyaringan air TIRTA KENCANA ABADI.
             </p>
           </div>
 

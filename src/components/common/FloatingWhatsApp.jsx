@@ -4,7 +4,7 @@ import { companyInfo } from "../../data/companyInfo";
 
 function FloatingWhatsApp() {
   const message = encodeURIComponent(
-    "Halo DEWA TIRTA LESTARI, saya ingin bertanya tentang layanan supplier air bersih."
+    "Halo TIRTA KENCANA ABADI, saya ingin bertanya tentang layanan supplier air bersih."
   );
 
   return (

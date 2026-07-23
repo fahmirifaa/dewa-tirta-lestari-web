@@ -1,7 +1,7 @@
 export const faqsData = [
   {
     id: 1,
-    question: "Bagaimana cara memesan air bersih dari DEWA TIRTA LESTARI?",
+    question: "Bagaimana cara memesan air bersih dari TIRTA KENCANA ABADI?",
     answer:
       "Anda dapat memesan langsung melalui tombol WhatsApp yang tersedia di website ini, atau menghubungi nomor telepon kami di jam operasional. Tim kami akan membantu proses pemesanan hingga penjadwalan pengiriman.",
   },

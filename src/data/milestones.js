@@ -4,7 +4,7 @@ export const milestonesData = [
     year: "2012",
     title: "Awal Berdiri",
     description:
-      "DEWA TIRTA LESTARI didirikan di Tangerang dengan 2 unit armada tangki dan melayani wilayah terbatas.",
+      "TIRTA KENCANA ABADI didirikan di Tangerang dengan 2 unit armada tangki dan melayani wilayah terbatas.",
   },
   {
     id: 2,

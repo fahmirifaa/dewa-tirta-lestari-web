@@ -19,8 +19,8 @@ function Testimonials() {
             <h2 className="section-title">Apa Kata Pelanggan Kami</h2>
             <p className="section-subtitle mb-6">
               Kepuasan pelanggan adalah prioritas utama kami. Berikut
-              pengalaman nyata mereka menggunakan layanan DEWA TIRTA
-              LESTARI.
+              pengalaman nyata mereka menggunakan layanan TIRTA KENCANA
+              ABADI.
             </p>
             <div className="inline-flex items-center gap-3 bg-primary/10 dark:bg-primary/20 px-6 py-3 rounded-full mb-8">
               <span className="text-3xl font-bold text-primary">
@@ -48,7 +48,7 @@ function Testimonials() {
 
       <CTABanner
         title="Sudah Menjadi Pelanggan Kami?"
-        subtitle="Bagikan pengalaman Anda menggunakan layanan DEWA TIRTA LESTARI melalui WhatsApp."
+        subtitle="Bagikan pengalaman Anda menggunakan layanan TIRTA KENCANA ABADI melalui WhatsApp."
       />
     </div>
   );

@@ -56,7 +56,7 @@ function MapSection() {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Lokasi DEWA TIRTA LESTARI"
+              title="Lokasi TIRTA KENCANA ABADI"
             ></iframe>
           </motion.div>
         </div>
