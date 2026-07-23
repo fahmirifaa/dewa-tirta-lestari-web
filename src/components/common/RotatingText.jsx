@@ -1,16 +1,6 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-/**
- * RotatingText
- * Menampilkan satu kata/frasa dari `texts` secara bergantian dengan animasi
- * naik-turun ala reactbits.dev (https://reactbits.dev/text-animations/rotating-text).
- *
- * Props:
- * - texts: array of string, daftar kata yang akan berganti-ganti
- * - rotationInterval: jeda pergantian (ms), default 2300
- * - className: kelas tambahan untuk styling teks
- */
 function RotatingText({ texts = [], rotationInterval = 2300, className = "" }) {
     const [index, setIndex] = useState(0);
 
