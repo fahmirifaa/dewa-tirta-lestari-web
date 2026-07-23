@@ -1,20 +1,16 @@
 import { Link } from "react-router-dom";
-import { FaTint } from "react-icons/fa";
+import logoImage from "../../assets/images/logo.png";
 
-function Logo({ isScrolled }) {
+function Logo() {
   return (
     <Link to="/" className="flex items-center gap-2 group">
-      <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-md group-hover:scale-105 transition-transform duration-300">
-        <FaTint className="text-white text-xl" />
-      </div>
+      <img
+        src={logoImage}
+        alt="TIRTA KENCANA ABADI"
+        className="w-11 h-11 object-contain group-hover:scale-105 transition-transform duration-300"
+      />
       <div className="flex flex-col leading-tight">
-        <span
-          className={`font-heading font-bold text-lg tracking-wide transition-colors duration-300 ${
-            isScrolled
-              ? "text-gray-900 dark:text-white"
-              : "text-gray-900 dark:text-white"
-          }`}
-        >
+        <span className="font-heading font-bold text-lg tracking-wide text-gray-900 dark:text-white">
           TIRTA KENCANA
         </span>
         <span className="text-xs font-medium text-primary tracking-widest">
