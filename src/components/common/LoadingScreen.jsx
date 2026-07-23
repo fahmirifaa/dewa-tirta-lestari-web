@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { FaTint } from "react-icons/fa";
+import logoImage from "../../assets/images/logo.png";
 
 function LoadingScreen({ isLoading }) {
   return (
@@ -12,11 +12,15 @@ function LoadingScreen({ isLoading }) {
           className="fixed inset-0 z-[100] bg-white dark:bg-gray-900 flex flex-col items-center justify-center"
         >
           <motion.div
-            animate={{ scale: [1, 1.15, 1] }}
+            animate={{ scale: [1, 1.1, 1] }}
             transition={{ duration: 1.2, repeat: Infinity, ease: "easeInOut" }}
-            className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-lg mb-4"
+            className="w-20 h-20 rounded-2xl bg-white dark:bg-gray-800 flex items-center justify-center shadow-lg mb-4 p-2"
           >
-            <FaTint className="text-white text-3xl" />
+            <img
+              src={logoImage}
+              alt="TIRTA KENCANA ABADI"
+              className="w-full h-full object-contain"
+            />
           </motion.div>
           <p className="font-heading font-semibold text-gray-700 dark:text-gray-200 tracking-wide">
             TIRTA KENCANA ABADI
