@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { stats } from "../../data/stats";
 import { useCountUp } from "../../hooks/useCountUp";
 import { companyInfo } from "../../data/companyInfo";
+import RotatingText from "../common/RotatingText";
 import armadaTangki1 from "../../assets/images/armada/armada-tangki-1.jpeg";
 
 function StatItem({ stat }) {
@@ -25,6 +26,17 @@ function HeroSection() {
         "Kualitas Air Teruji Laboratorium",
         "Pengiriman Cepat & Tepat Waktu",
         "Harga Bersaing untuk Semua Kalangan",
+    ];
+
+    const rotatingPlaces = [
+        "Kantor",
+        "Rumah",
+        "Depot Air",
+        "Hotel",
+        "Pabrik",
+        "Restoran",
+        "Sekolah",
+        "Rumah Ibadah",
     ];
 
     return (
@@ -52,6 +64,16 @@ function HeroSection() {
                                 Kehidupan Lebih Sehat
                             </span>
                         </h1>
+
+                        <p className="flex flex-wrap items-center gap-x-2 text-lg md:text-xl font-semibold text-gray-200 mb-6">
+                            Butuh air untuk
+                            <RotatingText
+                                texts={rotatingPlaces}
+                                rotationInterval={2300}
+                                className="text-primary-light font-bold"
+                            />
+                            ?
+                        </p>
 
                         <p className="text-gray-300 text-base md:text-lg mb-8 max-w-xl leading-relaxed">
                             TIRTA KENCANA ABADI melayani distribusi air bersih untuk rumah
