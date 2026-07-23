@@ -1,11 +1,13 @@
 import { motion } from "framer-motion";
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock } from "react-icons/fa";
 import { companyInfo } from "../../data/companyInfo";
+import BubbleBackground from "../common/BubbleBackground";
 
 function MapSection() {
   return (
-    <section className="section-padding bg-gray-50 dark:bg-gray-800/50">
-      <div className="container-custom">
+    <section className="relative overflow-hidden section-padding bg-gray-50 dark:bg-gray-800/50">
+      <BubbleBackground count={18} color="0,153,229" />
+      <div className="container-custom relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <motion.div
             initial={{ opacity: 0, x: -20 }}

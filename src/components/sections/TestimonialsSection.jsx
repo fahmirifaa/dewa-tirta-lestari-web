@@ -3,6 +3,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { FaQuoteLeft } from "react-icons/fa";
 import SectionHeading from "../common/SectionHeading";
 import StarRating from "../common/StarRating";
+import BubbleBackground from "../common/BubbleBackground";
 import { testimonialsData } from "../../data/testimonials";
 
 import "swiper/css";
@@ -11,8 +12,9 @@ import "swiper/css/navigation";
 
 function TestimonialsSection() {
   return (
-    <section className="section-padding bg-white dark:bg-gray-900">
-      <div className="container-custom">
+    <section className="relative overflow-hidden section-padding bg-white dark:bg-gray-900">
+      <BubbleBackground count={22} color="0,153,229" />
+      <div className="container-custom relative z-10">
         <SectionHeading
           badge="Testimoni"
           title="Apa Kata Pelanggan Kami"

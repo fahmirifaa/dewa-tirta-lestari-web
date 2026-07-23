@@ -1,12 +1,14 @@
 import { motion } from "framer-motion";
 import SectionHeading from "../common/SectionHeading";
+import BubbleBackground from "../common/BubbleBackground";
 import { filteringProcessData } from "../../data/filteringProcess";
 import { getIcon } from "../../utils/iconMapper";
 
 function FilteringProcessSection() {
   return (
-    <section className="section-padding bg-gray-50 dark:bg-gray-800/50 overflow-hidden">
-      <div className="container-custom">
+    <section className="relative section-padding bg-gray-50 dark:bg-gray-800/50 overflow-hidden">
+      <BubbleBackground count={22} color="0,153,229" />
+      <div className="container-custom relative z-10">
         <SectionHeading
           badge="Proses Kami"
           title="Tahapan Penyaringan Air Berkualitas"

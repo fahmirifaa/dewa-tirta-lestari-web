@@ -1,11 +1,13 @@
 import SectionHeading from "../common/SectionHeading";
 import FeatureCard from "../common/FeatureCard";
+import BubbleBackground from "../common/BubbleBackground";
 import { whyChooseUsData } from "../../data/whyChooseUs";
 
 function WhyChooseUsSection() {
   return (
-    <section className="section-padding bg-gray-50 dark:bg-gray-800/50">
-      <div className="container-custom">
+    <section className="relative overflow-hidden section-padding bg-gray-50 dark:bg-gray-800/50">
+      <BubbleBackground count={22} color="0,153,229" />
+      <div className="container-custom relative z-10">
         <SectionHeading
           badge="Mengapa Memilih Kami"
           title="Alasan Ribuan Pelanggan Mempercayai Kami"

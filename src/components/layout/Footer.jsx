@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa";
 import { navLinks } from "../../data/navLinks";
 import { companyInfo } from "../../data/companyInfo";
+import BubbleBackground from "../common/BubbleBackground";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -25,8 +26,9 @@ function Footer() {
   ];
 
   return (
-    <footer className="bg-gray-900 text-gray-300">
-      <div className="container-custom pt-16 pb-8">
+    <footer className="relative overflow-hidden bg-gray-900 text-gray-300">
+      <BubbleBackground count={18} color="186,230,253" />
+      <div className="container-custom pt-16 pb-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <div className="flex items-center gap-2 mb-4">

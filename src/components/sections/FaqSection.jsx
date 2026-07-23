@@ -1,11 +1,13 @@
 import SectionHeading from "../common/SectionHeading";
 import AccordionItem from "../common/AccordionItem";
+import BubbleBackground from "../common/BubbleBackground";
 import { faqsData } from "../../data/faqs";
 
 function FaqSection() {
   return (
-    <section className="section-padding bg-white dark:bg-gray-900">
-      <div className="container-custom max-w-3xl">
+    <section className="relative overflow-hidden section-padding bg-white dark:bg-gray-900">
+      <BubbleBackground count={18} color="0,153,229" />
+      <div className="container-custom max-w-3xl relative z-10">
         <SectionHeading
           badge="FAQ"
           title="Pertanyaan yang Sering Diajukan"

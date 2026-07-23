@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import SectionHeading from "../common/SectionHeading";
 import Lightbox from "../common/Lightbox";
+import BubbleBackground from "../common/BubbleBackground";
 import { galleryData } from "../../data/gallery";
 
 function GallerySection() {
@@ -27,8 +28,9 @@ function GallerySection() {
   }
 
   return (
-    <section className="section-padding bg-gray-50 dark:bg-gray-800/50">
-      <div className="container-custom">
+    <section className="relative overflow-hidden section-padding bg-gray-50 dark:bg-gray-800/50">
+      <BubbleBackground count={22} color="0,153,229" />
+      <div className="container-custom relative z-10">
         <SectionHeading
           badge="Galeri"
           title="Dokumentasi Kegiatan Kami"

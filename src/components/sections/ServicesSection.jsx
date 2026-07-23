@@ -2,14 +2,16 @@ import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import SectionHeading from "../common/SectionHeading";
 import ServiceCard from "../common/ServiceCard";
+import BubbleBackground from "../common/BubbleBackground";
 import { servicesData } from "../../data/services";
 
 function ServicesSection() {
   const featuredServices = servicesData.slice(0, 6);
 
   return (
-    <section className="section-padding bg-white dark:bg-gray-900">
-      <div className="container-custom">
+    <section className="relative overflow-hidden section-padding bg-white dark:bg-gray-900">
+      <BubbleBackground count={22} color="0,153,229" />
+      <div className="container-custom relative z-10">
         <SectionHeading
           badge="Layanan Kami"
           title="Solusi Air Bersih untuk Setiap Kebutuhan"

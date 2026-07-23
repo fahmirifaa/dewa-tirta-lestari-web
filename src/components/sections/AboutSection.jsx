@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { FaCheckCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import BubbleBackground from "../common/BubbleBackground";
 import armadaTangki2 from "../../assets/images/galeri/galeri-2.jpg";
 import armadaTangki3 from "../../assets/images/galeri/galeri-3.jpg";
 
@@ -13,8 +14,9 @@ function AboutSection() {
     ];
 
     return (
-        <section className="section-padding bg-white dark:bg-gray-900">
-            <div className="container-custom">
+        <section className="relative overflow-hidden section-padding bg-white dark:bg-gray-900">
+            <BubbleBackground count={22} color="0,153,229" />
+            <div className="container-custom relative z-10">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}

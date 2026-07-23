@@ -6,7 +6,7 @@ import { useCountUp } from "../../hooks/useCountUp";
 import { companyInfo } from "../../data/companyInfo";
 import RotatingText from "../common/RotatingText";
 import BubbleBackground from "../common/BubbleBackground";
-import armadaTangki1 from "../../assets/images/galeri/galeri-1.jpg";
+import armadaTangki3 from "../../assets/images/galeri/galeri-3.jpg";
 
 function StatItem({ stat }) {
     const [ref, count] = useCountUp(stat.value, 2000);
@@ -122,7 +122,7 @@ function HeroSection() {
                     >
                         <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                             <img
-                                src={armadaTangki1}
+                                src={armadaTangki3}
                                 alt="Armada tangki air bersih TIRTA KENCANA ABADI"
                                 className="w-full h-[400px] md:h-[480px] object-cover"
                                 loading="lazy"

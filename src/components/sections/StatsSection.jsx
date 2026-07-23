@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { stats } from "../../data/stats";
 import { useCountUp } from "../../hooks/useCountUp";
 import { FaTint, FaUsers, FaTruck, FaWarehouse } from "react-icons/fa";
+import BubbleBackground from "../common/BubbleBackground";
 
 const statsIcons = [FaTint, FaUsers, FaWarehouse, FaTruck];
 
@@ -37,6 +38,8 @@ function StatsSection() {
         <div className="absolute top-0 right-0 w-72 h-72 bg-primary rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-72 h-72 bg-accent rounded-full blur-3xl"></div>
       </div>
+
+      <BubbleBackground count={35} color="186,230,253" />
 
       <div className="container-custom relative z-10">
         <motion.div
