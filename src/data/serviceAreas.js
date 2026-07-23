@@ -20,7 +20,7 @@ export const serviceAreasData = [
   {
     id: 4,
     name: "Bogor",
-    description: "Pengiriman terjadwal 2-3 kali per minggu.",
+    description: "Pengiriman ke area Bogor dan sekitarnya dengan estimasi 1 hari kerja.",
     isPopular: false,
   },
   {
