@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { FaCheckCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import armadaTangki2 from "../../assets/images/armada/armada-tangki-2.jpeg";
-import armadaTangki3 from "../../assets/images/armada/armada-tangki-3.jpeg";
+import armadaTangki2 from "../../assets/images/galeri/galeri-2.jpg";
+import armadaTangki3 from "../../assets/images/galeri/galeri-3.jpg";
 
 function AboutSection() {
     const highlights = [

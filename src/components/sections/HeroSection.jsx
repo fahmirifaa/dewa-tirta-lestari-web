@@ -6,7 +6,7 @@ import { useCountUp } from "../../hooks/useCountUp";
 import { companyInfo } from "../../data/companyInfo";
 import RotatingText from "../common/RotatingText";
 import BubbleBackground from "../common/BubbleBackground";
-import armadaTangki1 from "../../assets/images/armada/armada-tangki-1.jpeg";
+import armadaTangki1 from "../../assets/images/galeri/galeri-1.jpg";
 
 function StatItem({ stat }) {
     const [ref, count] = useCountUp(stat.value, 2000);
